@@ -3,8 +3,11 @@
   font-family: 'Roboto';
   --text-primary: #b6b6b6;
   --text-secondary: #ececec;
-  --bg-primary: #23232e;
-  --bg-secondary: #141418;
+  --bg-primary: #1D1F1E;
+  --bg-primary-light: #393949;
+  --bg-secondary: #1B1C1C;
+  --icon-primary: #03B478;
+  --icon-secondary: #056847;
   --transition-speed: 600ms;
 }
 
@@ -19,8 +22,51 @@ body {
 }
 
 .page {
-  background-color: red;
+  background-color: var(--bg-primary-light);
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-grow: 1;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  width: 1700px;
+  height: 700px;
+  background-color: var(--bg-primary-l);
+  box-shadow: 0px 0px 25px 10px rgba(0, 0, 0, 0.4);
+  border-radius: 40px;
+}
+
+.section {
+  width: 400px;
+  height: 695px;
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
+  border-left: 2.5px var(--icon-primary) solid;
+  border-top: 2.5px var(--icon-primary) solid;
+  border-bottom: 2.5px var(--icon-primary) solid;
+  background-color: var(--bg-secondary);
+}
+
+.section .section-text {
+  font-weight: bold;
+  color: transparent;
+  -webkit-text-stroke: 0.5px var(--icon-primary);
+  writing-mode:tb-rl;
+  align-self: center;
+  -webkit-transform:rotate(180deg);
+  -moz-transform:rotate(180deg);
+  -o-transform: rotate(180deg);
+  -ms-transform:rotate(180deg);
+  transform: rotate(180deg);
+  font-size: 9rem;
+  margin-left: 63%;
+  margin-top: 0.25rem;
 }

@@ -2,7 +2,7 @@
   width: 5rem;
   height: 100vh;
   background-color: var(--bg-primary);
-  transition: width 200ms ease;
+  transition: var(--transition-speed);
 }
 
 .navbar-nav {
@@ -64,14 +64,40 @@
 }
 
 .primary {
-  color: #ff7eee;
+  color: var(--icon-primary)
 }
 
-.secondary {
-  color: #df49a6;
-}
-
-.primary,
-.secondary {
+.primary {
   transition: var(--transition-speed);
+}
+
+.nav-logo {
+  display: flex;
+  align-items: center;
+  height: 5rem;
+  background-color: var(--bg-secondary);
+  color: var(--text-primary);
+  text-decoration: none;
+  margin-bottom: 2rem;
+  padding: 1.25rem;
+  text-align: center;
+}
+
+.logo {
+  font-size: 2rem;
+  color: var(--text-secondary);
+  background-color: var(--bg-secondary);
+}
+
+.navbar:hover .logo {
+  display: none;
+}
+
+.logo-text {
+  display: none;
+  font-size: 2rem;
+}
+
+.navbar:hover .logo-text {
+  display: block;
 }

@@ -1,9 +1,15 @@
 import React from 'react';
 
+import './Profile.css';
+
 function Profile() {
   return (
     <div className="page">
-      <span> Profile </span>
+      <div className="card">
+        <div className="section">
+          <span className="section-text"> Perfil </span>
+        </div>
+      </div>
     </div>
   );
 }

@@ -1,8 +1,13 @@
 import React from 'react';
 import * as FaIcons from 'react-icons/fa';
-import * as IoIcons from 'react-icons/io';
+import * as AiIcons from 'react-icons/ai';
 
 export const NavbarData = [
+  {
+    title: 'Home',
+    path: '/',
+    icon: <AiIcons.AiOutlineHome className="icon" />
+  },
   {
     title: 'Perfil',
     path: '/profile',
@@ -16,11 +21,11 @@ export const NavbarData = [
   {
     title: 'Contacto',
     path: '/contact',
-    icon: <IoIcons.IoIosPaper className="icon" />
+    icon: <AiIcons.AiOutlineMail className="icon" />
   },
   {
     title: 'Resumen',
     path: '/resume',
-    icon: <FaIcons.FaCartPlus className="icon" />
+    icon: <FaIcons.FaRegListAlt className="icon" />
   }
 ];
