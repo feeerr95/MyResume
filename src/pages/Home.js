@@ -10,7 +10,12 @@ function Home() {
           <span className="section-text"> Home </span>
         </div>
         <div className="home">
-          <span className="name">Fernando Alvarez</span>
+          <div>
+            <span className="name p">F</span>
+            <span className="name s">ernando </span>
+            <span className="name p">A</span>
+            <span className="name s">lvarez</span>
+          </div>
           <span className="profession">Estudiante de ingeniería informática</span>
         </div>
       </div>

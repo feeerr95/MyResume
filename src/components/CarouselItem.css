@@ -3,25 +3,27 @@
   min-width: 500px;
   height: 300px;
   margin: 40px;
-  background-color: rgb(153, 163, 159);
+  background-color: var(--bg-primary);
+  color: var(--icon-secondary);
   border-radius: 40px;
   box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.2);
+  border: var(--icon-primary) 1px solid;
   position: relative;
 }
 
 .project-title {
+  color: white;
   padding-left: 20px;
   font-size: 40px;
   font-weight: bold;
-  color: var(--bg-secondary);
   padding-top: 10px;
 }
 
 .project-description {
   font-size: 20px;
-  padding-top: 5px;
-  color: var(--bg-primary);
-  padding-left: 20px;
+  padding-top: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 .project-lenguages {
@@ -33,12 +35,12 @@
   font-size: 50px;
   border-radius: 50%;
   background-color: var(--bg-secondary);
-  color: var(--icon-secondary);  
+  color: var(--icon-primary);  
   height: 52px;
   bottom: 10px;
   right: 10px;
 }
 
 .project-repo-icon:hover {
-  color: var(--icon-primary)
+  box-shadow: 0px 0px 10px #4ffd83;
 }

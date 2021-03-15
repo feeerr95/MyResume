@@ -16,8 +16,8 @@ export const ProjectsData = [
     title: 'ZonaProp - Mexico (2019)',
     description: (
       <span>
-        Analisis exploratorio sobre publicaciones de las residencias publicadas en zonaprop. <br /> Desarrollo
-        de un modelo predictivo de los precios de las mismas en base a los datos.
+        Analisis exploratorio sobre publicaciones de las residencias publicadas en zonaprop, tambien se
+        desarrollo de un modelo predictivo de los precios de las mismas en base a los datos.
       </span>
     ),
     lenguages: ['Jupyter Notebook', 'Pandas', 'Apache Spark'],
