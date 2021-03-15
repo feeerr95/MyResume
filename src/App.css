@@ -47,6 +47,8 @@ body {
 .section {
   width: 400px;
   height: 695px;
+  display: flex;
+  justify-content: flex-end;
   border-top-left-radius: 40px;
   border-bottom-left-radius: 40px;
   border-left: 2.5px var(--icon-primary) solid;
@@ -55,18 +57,18 @@ body {
   background-color: var(--bg-secondary);
 }
 
-.section .section-text {
+.section-text {
   font-weight: bold;
   color: transparent;
   -webkit-text-stroke: 0.5px var(--icon-primary);
-  writing-mode:tb-rl;
   align-self: center;
-  -webkit-transform:rotate(180deg);
-  -moz-transform:rotate(180deg);
-  -o-transform: rotate(180deg);
-  -ms-transform:rotate(180deg);
+  -webkit-transform:rotate(0deg);
+  -moz-transform:rotate(0deg);
+  -o-transform: rotate(0deg);
+  -ms-transform:rotate(0deg);
   transform: rotate(180deg);
   font-size: 9rem;
-  margin-left: 63%;
-  margin-top: 0.25rem;
+  writing-mode:tb-rl;
 }
+
+

@@ -24,12 +24,20 @@ export const Skills = [
     percentage: '30%'
   },
   {
+    title: 'Spark',
+    percentage: '30%'
+  },
+  {
+    title: 'Pandas',
+    percentage: '30%'
+  },
+  {
     title: 'C++',
     percentage: '30%'
   },
   {
     title: 'Python',
-    percentage: '20%'
+    percentage: '30%'
   }
 ];
 

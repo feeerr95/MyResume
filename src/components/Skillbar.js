@@ -5,9 +5,10 @@ import './Skillbar.css';
 function Skillbar({ item }) {
   return (
     <div className="skill-box">
-      <span className="skill-title">
-        {item.title} - {item.percentage}
-      </span>
+      <div className="skill-title">
+        <span>{item.title}</span>
+        <span>{item.percentage}</span>
+      </div>
       <div className="skill-bar">
         <div className="skill-percentage" style={{ width: item.percentage }} />
       </div>

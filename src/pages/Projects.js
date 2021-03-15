@@ -1,17 +1,17 @@
 import React from 'react';
 
-import './Education.css';
+import './Projects.css';
 
-function Education() {
+function Projects() {
   return (
     <div className="page">
       <div className="card">
         <div className="section">
-          <span className="section-text"> Educación </span>
+          <span className="section-text"> Projectos </span>
         </div>
       </div>
     </div>
   );
 }
 
-export default Education;
+export default Projects;

@@ -1,6 +1,7 @@
 import React from 'react';
 import * as FaIcons from 'react-icons/fa';
 import * as AiIcons from 'react-icons/ai';
+import * as RiIcons from 'react-icons/ri';
 
 export const NavbarData = [
   {
@@ -14,9 +15,9 @@ export const NavbarData = [
     icon: <FaIcons.FaUser className="icon" />
   },
   {
-    title: 'Educacion',
-    path: '/education',
-    icon: <FaIcons.FaUniversity className="icon" />
+    title: 'Projectos',
+    path: '/projects',
+    icon: <RiIcons.RiComputerLine className="icon" />
   },
   {
     title: 'Contacto',
