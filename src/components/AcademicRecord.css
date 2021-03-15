@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+}
+.schooling-box {
+  display: flex;
+  flex-direction: column;
+  height: 120px;
+  width: 500px;
+}
+
+.schooling-title {
+  color: white;
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.schooling-item {
+  color: var(--icon-primary);
+  padding-left: 10px;
+  padding-bottom: 5px;
+}
+
+.divider {
+  width: 3px;
+  background-color: var(--bg-secondary);
+  height: 120px;
+  margin-right: 10px;
+}
+
+.divider .circle {
+  
+}

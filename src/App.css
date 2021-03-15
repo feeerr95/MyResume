@@ -37,7 +37,7 @@ body {
 .card {
   display: flex;
   align-items: center;
-  width: 1700px;
+  min-width: 90%;
   height: 700px;
   background-color: var(--bg-primary-l);
   box-shadow: 0px 0px 25px 10px rgba(0, 0, 0, 0.4);

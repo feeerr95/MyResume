@@ -1,0 +1,35 @@
+.skill-box {
+  max-width: 500px;
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+  padding-right: 30px;
+  padding-left: 10px;
+}
+
+.skill-bar {
+  width: 100%;
+  height: 8px;
+  border-radius: 10px;
+  border: var(--icon-primary) 2px solid;
+  align-items: center;
+  display: flex;
+}
+
+.skill-percentage {
+  height: 50%;
+  border-radius: 10px;
+  margin-left: 2px;
+  background: green;
+}
+
+.skill-title {
+  color: white;
+  align-self: flex-start;
+  padding-left: 2rem;
+  padding-bottom: 5px;
+}
+

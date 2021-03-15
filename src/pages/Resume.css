@@ -1,0 +1,29 @@
+.skills-item {
+  width: 100%;
+  list-style: none;
+}
+
+.education-box{
+  width: 600px;
+  list-style: none;
+}
+
+.stats {
+  display: flex;
+  flex-grow: 3;
+  flex-direction: column;
+}
+
+.schooling {
+  padding-left: 40px;
+  flex-grow: 1;
+  width: 500px;
+}
+
+.page-title {
+  font-weight: bold;
+  background-color: transparent;
+  font-size: 30px;
+  color: white;
+  text-shadow: 1px 1px 10px rgba(0, 0, 0, 1);
+}

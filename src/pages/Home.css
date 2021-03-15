@@ -1,0 +1,20 @@
+.home {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.name {
+  font-size: 5rem;
+  text-align: center;
+  font-weight: bold;
+  color: var(--icon-primary)
+}
+
+.profession {
+  font-size: 3rem;
+  text-align: center;
+  color: var(--icon-primary)
+}

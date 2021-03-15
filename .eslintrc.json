@@ -309,7 +309,6 @@
     "react/boolean-prop-naming": "error",
     "react/button-has-type": "error",
     "react/default-props-match-prop-types": "error",
-    "react/forbid-dom-props": ["error", { "forbid": ["style"] }],
     "react/jsx-boolean-value": ["error", "never"],
     "react/jsx-child-element-spacing": "error",
     "react/jsx-curly-brace-presence": [
@@ -360,7 +359,6 @@
     "react/no-will-update-set-state": "error",
     "react/prefer-es6-class": "error",
     "react/prefer-stateless-function": "error",
-    "react/prop-types": [2, { "ignore": ["style", "children", "dispatch"] }],
     "react/require-default-props": "off",
     "react/require-render-return": "error",
     "react/self-closing-comp": "error",
