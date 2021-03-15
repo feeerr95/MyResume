@@ -6,8 +6,8 @@
   --bg-primary: #1D1F1E;
   --bg-primary-light: #393949;
   --bg-secondary: #1B1C1C;
-  --icon-primary: #03B478;
-  --icon-secondary: #056847;
+  --icon-primary: #00ff9d;
+  --icon-secondary: #028a5c;
   --transition-speed: 600ms;
 }
 
@@ -37,7 +37,8 @@ body {
 .card {
   display: flex;
   align-items: center;
-  min-width: 90%;
+  min-width: 1000px;
+  width: 90%;
   height: 700px;
   background-color: var(--bg-primary-l);
   box-shadow: 0px 0px 25px 10px rgba(0, 0, 0, 0.4);
@@ -45,7 +46,7 @@ body {
 }
 
 .section {
-  width: 400px;
+  min-width: 25%;
   height: 695px;
   display: flex;
   justify-content: flex-end;

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Skills, Schooling, Programs } from './ResumeData';
+import { Skills, Schooling, Programs } from '../data/ResumeData';
 import Skillbar from '../components/Skillbar';
 import AcademicRecord from '../components/AcademicRecord';
 

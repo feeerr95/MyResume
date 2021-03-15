@@ -1,5 +1,5 @@
 import React from 'react';
-import { NavbarData } from './NavbarData';
+import { NavbarData } from '../data/NavbarData';
 import { Link } from 'react-router-dom';
 
 import './Navbar.css';

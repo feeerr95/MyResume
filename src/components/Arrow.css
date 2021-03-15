@@ -1,0 +1,22 @@
+.arrow {
+  font-size: 50px;
+  color: var(--icon-secondary);
+  background-color: transparent;
+  align-self: center;
+  border-style: none;
+  stroke: 5px;
+}
+
+.arrow:hover {
+  color: var(--icon-primary);
+  border-style: none;
+}
+
+.arrow:disabled {
+  border-style: none;
+  color: var(--bg-primary);
+}
+
+:focus {
+  outline: none;
+}

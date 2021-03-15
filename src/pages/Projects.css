@@ -1,0 +1,22 @@
+
+.carousel-box {
+  width: 85%;
+  min-width: 700px;
+}
+
+.carousel-container {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button.rec-dot{
+  background-color: var(--bg-secondary); 
+  box-shadow: 0 0 1px 3px rgba(3, 133, 21, 0.5);
+}
+
+button.rec-dot:hover, button.rec-dot:active, button.rec-dot:focus, .rec-carousel-item:focus {
+  background-color: var(--icon-primary);
+  box-shadow: 0 0 1px 3px rgba(3, 133, 21, 0.5);
+}

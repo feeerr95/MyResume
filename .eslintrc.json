@@ -307,7 +307,6 @@
 
     // React
     "react/boolean-prop-naming": "error",
-    "react/button-has-type": "error",
     "react/default-props-match-prop-types": "error",
     "react/jsx-boolean-value": ["error", "never"],
     "react/jsx-child-element-spacing": "error",
@@ -326,7 +325,6 @@
     "react/jsx-no-bind": ["error", { "allowArrowFunctions": true }],
     "react/jsx-no-comment-textnodes": "error",
     "react/jsx-no-duplicate-props": "error",
-    "react/jsx-no-target-blank": "error",
     "react/jsx-pascal-case": "error",
     "react/jsx-props-no-multi-spaces": "error",
     "react/jsx-tag-spacing": ["error", { "beforeClosing": "never" }],
