@@ -13,19 +13,19 @@ function Resume() {
           <span className="section-text">Resumen</span>
         </div>
         <div className="schooling">
-          <span className="page-title">Estudios</span>
+          <span className="resume-categorie-title">Estudios</span>
           <ul className="education-box">
             {Schooling.map((item, index) => (
-              <li key={index} className="education-item">
+              <li key={index}>
                 <AcademicRecord item={item} />
               </li>
             ))}
           </ul>
         </div>
         <div className="stats">
-          <div className="skills-box">
-            <span className="page-title">Lenguajes y Frameworks</span>
-            <ul style={{ padding: 0 }}>
+          <div className="resume-languages">
+            <span className="resume-categorie-title">Lenguajes y Frameworks</span>
+            <ul className="skills-box" style={{ padding: 0 }}>
               {Skills.map((item, index) => (
                 <li key={index} className="skills-item">
                   <Skillbar item={item} />
@@ -33,9 +33,9 @@ function Resume() {
               ))}
             </ul>
           </div>
-          <div className="skills-box">
-            <span className="page-title">Programas</span>
-            <ul style={{ padding: 0 }}>
+          <div className="resume-programs">
+            <span className="resume-categorie-title">Programas</span>
+            <ul className="skills-box" style={{ padding: 0 }}>
               {Programs.map((item, index) => (
                 <li key={index} className="skills-item">
                   <Skillbar item={item} />
