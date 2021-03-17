@@ -2,7 +2,7 @@
   width: 5rem;
   height: 100vh;
   background-color: var(--bg-primary);
-  transition: var(--transition-speed);
+  transition: width 600ms ease-in-out
 }
 
 .navbar-nav {
@@ -29,8 +29,16 @@
   transition: var(--transition-speed);
 }
 
-.nav-link:hover  {
+.nav-link:hover {
+  filter: grayscale(0%) opacity(1);
+  background: var(--bg-secondary);
+  color: var(--text-secondary);
   height: 6rem;
+}
+
+.link-text {
+  display: none;
+  margin-left: 1rem;
 }
 
 .nav-link:hover .icon {
@@ -39,22 +47,11 @@
 }
 
 .navbar:hover {
-  width: 16rem;
+  width: 14rem;
 }
 
 .navbar:hover .link-text {
   display: block;
-}
-
-.link-text {
-  display: none;
-  margin-left: 1rem;
-}
-
-.nav-link:hover {
-  filter: grayscale(0%) opacity(1);
-  background: var(--bg-secondary);
-  color: var(--text-secondary);
 }
 
 .nav-link .icon {
@@ -64,10 +61,7 @@
 }
 
 .primary {
-  color: var(--icon-primary)
-}
-
-.primary {
+  color: var(--icon-primary);
   transition: var(--transition-speed);
 }
 
